@@ -12,6 +12,7 @@ Em seu repositório a [Milena][linkMilena] criou aulgumas regras que ela deia co
 * Realizar todos os dias um novo projeto
 * Não repetir um projetojá criado por mim durante até então
  
+Para participar também [clique aqui][linkIssue]
  ## :page_facing_up: Linceça
  Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licenses/MIT) para obter mais informações.
  
