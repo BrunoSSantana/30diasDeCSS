@@ -25,9 +25,12 @@ Para participar também [clique aqui][linkIssue]
 
 ### Challenge01: 
  
-![challenge01](https://media.giphy.com/media/QycKsb7RvZYl4K5heV/giphy.gif)
+[![challenge01](https://media.giphy.com/media/QycKsb7RvZYl4K5heV/giphy.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/Challenge01)
 
-[Meu codigo](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/Challenge01)
+**O que aprendi**
+
+* Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
+* Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
