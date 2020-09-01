@@ -1,5 +1,5 @@
 # :rocket: 30diasDeCSS
-## :bookmark: Sobre
+## :label: Sobre
 30 dias de CSS3, é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS
 
 ## Objetivo
@@ -12,6 +12,7 @@ Em seu repositório a [Milena][linkMilena] criou aulgumas regras que ela deia co
 * Realizar todos os dias um novo projeto
 * Não repetir um projetojá criado por mim durante até então
  
+Para participar também [clique aqui][linkIssue]
  ## :page_facing_up: Linceça
  Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licenses/MIT) para obter mais informações.
  
@@ -21,6 +22,15 @@ Em seu repositório a [Milena][linkMilena] criou aulgumas regras que ela deia co
 - [DarkCode][darkCode]
 - [Creative Creations][creativeCreations]
 - [Online Tutorials][onlineTutorials]
+
+### Challenge01: 
+ 
+[![challenge01](https://media.giphy.com/media/QycKsb7RvZYl4K5heV/giphy.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/Challenge01)
+
+**O que aprendi**
+
+* Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
+* Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
