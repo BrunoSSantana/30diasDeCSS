@@ -25,7 +25,7 @@ Para participar também [clique aqui][linkIssue]
 
 ### Challenge01: 
  
-[![challenge01](https://media.giphy.com/media/QycKsb7RvZYl4K5heV/giphy.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/Challenge01)
+[![challenge01](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge01.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/Challenge01)
 
 **O que aprendi**
 
@@ -33,7 +33,7 @@ Para participar também [clique aqui][linkIssue]
 * Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
 ### Challenge02:
-[![challenge02](../screenshots/challenge01.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/Challenge02)
+[![challenge02](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge02.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/Challenge02)
 
 **O que aprendi**
 
