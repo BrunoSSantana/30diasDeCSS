@@ -32,6 +32,15 @@ Para participar também [clique aqui][linkIssue]
 * Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
 * Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
+### Challenge02:
+[![challenge02](../screenshots/challenge01.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/Challenge02)
+
+**O que aprendi**
+
+* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+* Uso do seletor [**nth-child()**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)
+* Uso de [**::after**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after) (*pseudo-classe*)
+
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
 
