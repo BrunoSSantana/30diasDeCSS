@@ -6,10 +6,11 @@
     box-sizing: border-box;
 }
 body {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #264653;
+    background: linear-gradient(45deg, #6930c3, #4ea8de, #64dfdf);
 }
 
 .container {
@@ -38,7 +39,6 @@ body {
 .container .card:hover {
     height: 420px;
 }
-
 
 .container .card .imgBx {
     position: relative;

@@ -40,6 +40,15 @@ Para participar também [clique aqui][linkIssue]
 * Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
 * Uso do seletor [**nth-child()**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)
 * Uso de [**::after**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after) (*pseudo-classe*)
+* Uso de [**linear-gradient**](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
+
+### Challenge03:
+[![challenge03](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge03.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/Challenge03)
+
+**O que aprendi**
+
+* Uso de [**object fit**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/object-fit)
+* Uso de [**linear-gradient**](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
 
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
