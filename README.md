@@ -50,6 +50,16 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**object fit**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/object-fit)
 * Uso de [**linear-gradient**](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
 
+### Challenge04:
+[![challenge04](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge04.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/Challenge04)
+
+**O que aprendi**
+
+* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+* Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
+* Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+
+
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
 
