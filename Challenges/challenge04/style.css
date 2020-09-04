@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #14213d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ghost {
+    height: 160px;
+    width: 120px;
+    background: #e5e5e5;
+    border-radius: 60px 60px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: floating 2s infinite ease-in-out;
+}
+@keyframes floating {
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+.face {
+    position: absolute;
+    width: 90px;
+    top: 30px;
+    left: calc(50%-50px);
+}
+
+.eyes {
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.eyes span {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #14213d;
+    transition: 0.3s ease-in-out;
+}
+.ghost:hover .eyes span {
+    transform-origin: center;
+    height: 33px;
+}
+.mouth {
+    margin: auto;
+    width: 40px;
+    height: 20px;
+    background: #14213d;
+    border-radius: 0 0 20px 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.ghost:hover .mouth {
+    width: 20px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+.hands {
+    position: absolute;
+    width: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hands span {
+    position: relative;
+    top: 20px;
+    height: 20px;
+    width: 40px;
+    background: #e5e5e5;
+    transition: 0.3s ease-in-out;
+
+}
+
+.hands span:first-child {
+    rotate: -55deg;
+    border-radius: 20px 0 0 20px;
+}
+
+.ghost:hover .hands span:first-child {
+    rotate: 30deg;
+}
+
+.ghost:hover .hands span:last-child {
+    rotate: -30deg;
+}
+
+.hands span:last-child {
+    rotate: 55deg;
+    border-radius: 0 20px 20px 0;
+}
+
+.feet {
+    position: absolute;
+    bottom: -39px;
+    width: 100%;
+    display: flex;
+}
+.feet span {
+    flex: 1;
+    height: 40px;
+    background: #e5e5e5;
+    border-radius: 0 0 20px 20px;
+}
+.feet span:first-child {
+    border-radius: 0 0 40px 10px;
+}
+.feet span:last-child {
+    border-radius: 0 0 10px 40px;
+}
