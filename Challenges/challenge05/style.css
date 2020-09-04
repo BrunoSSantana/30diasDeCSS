@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #343a40 10%, #43aa8b);
+}
+
+.content {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  color: #111;
+  font-size: 30px;
+  font-family: 'Ubuntu', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 60vw;
+}
+span {
+    width: auto;
+    display: flex;
+    justify-content: initial;
+    margin-left: 20px;
+}
+span::before
+{
+    content: '';
+    animation: word 3s infinite linear;
+}
+
+@keyframes word 
+{
+    0% {content: '🌕'}
+
+    33%{content: '💡'}
+
+    66%{content: '💭'}
+
+    100%{content: '👱‍♀️'}
+}
