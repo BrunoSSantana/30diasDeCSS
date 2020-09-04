@@ -33,7 +33,7 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
 ### Challenge02:
-[![challenge02](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge02.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/Challenge02)
+[![challenge02](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge02.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge02)
 
 **O que aprendi**
 
@@ -43,7 +43,7 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**linear-gradient**](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
 
 ### Challenge03:
-[![challenge03](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge03.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/Challenge03)
+[![challenge03](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge03.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge03)
 
 **O que aprendi**
 
@@ -51,7 +51,7 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**linear-gradient**](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
 
 ### Challenge04:
-[![challenge04](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge04.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/Challenge04)
+[![challenge04](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge04.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge04)
 
 **O que aprendi**
 
