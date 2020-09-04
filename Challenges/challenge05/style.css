@@ -20,7 +20,7 @@ body {
 }
 
 p {
-  color: #111;
+  color: #ffffff;
   font-size: 30px;
   font-family: 'Ubuntu', cursive;
   display: flex;
@@ -37,16 +37,18 @@ span {
 span::before
 {
     content: '';
-    animation: word 3s infinite linear;
+    animation: word 3s linear infinite;
 }
 
 @keyframes word 
 {
     0% {content: '🌕'}
 
-    33%{content: '💡'}
+    25%{content: '💡'}
 
-    66%{content: '💭'}
+    50%{content: '💭'}
 
-    100%{content: '👱‍♀️'}
+    75%{content: '👱‍♀️'}
+
+    100%{content: ''}
 }
