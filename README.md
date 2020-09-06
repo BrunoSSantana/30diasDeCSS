@@ -55,7 +55,7 @@ Para participar também, [clique aqui][linkIssue]
 
 **O que aprendi**
 
-* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+* Uso de [**transform**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
 * Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
 * Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
@@ -67,6 +67,15 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
 * Uso do [**::before**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
 * Uso de [**gradient**](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
+
+### Challenge06:
+[![challenge05](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge06.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge06)
+
+**O que aprendi**
+
+* Uso de [**transform**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)
+* Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
+* Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
