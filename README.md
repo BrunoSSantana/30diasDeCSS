@@ -69,13 +69,27 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**gradient**](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
 
 ### Challenge06:
-[![challenge05](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge06.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge06)
+[![challenge06](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge06.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge06)
 
 **O que aprendi**
 
 * Uso de [**transform**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)
 * Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
 * Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+
+### Challenge07:
+[![challenge07](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge07.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge07)
+
+**O que aprendi**
+
+* Uso de [**transform**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)
+* Uso do [**::before**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before) (*pseudo-classe*)
+* Uso de [**::after**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after) (*pseudo-classe*)
+* Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+* Uso de [**perspective()**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-function/perspective)
+* Uso de [**rotate()**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-function/rotate)
+* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+
 
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)

@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: radial-gradient(#9bdfff, #009be4);
+  background: radial-gradient(#ebebeb, #e4e4e4);
 }
 
 .infinity {
