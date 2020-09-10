@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+body {
+  width: 100%;
+  height: 100vh;
+
+  background: linear-gradient(40deg, #333, #8b8b8b);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: max(16pt, 2.5vw);
+}
+
+p {
+  font-size: max(12pt, 1vw);
+}
+
+.content__wrap {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+
+  width: 25%;
+
+  background: linear-gradient(45deg, red, purple);
+
+  color: #333;
+  padding: 2rem;
+  margin: 0 5vw;
+}
+
+.content__wrap span {
+  position: absolute;
+  display: block;
+}
+
+.content__wrap span:nth-child(1) {
+  top:0 ;
+  left:-100% ;
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(90deg, transparent, rgb(100, 0, 100));
+  animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+
+.content__wrap span:nth-child(2) {
+  top:-100% ;
+  right: 0% ;
+  width: 8px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, rgb(100, 0, 100));
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+
+.content__wrap span:nth-child(3) {
+  bottom: 0;
+  right: -100% ;
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(270deg, transparent, rgb(100, 0, 100));
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%, 100% {
+    right: 100%;
+  }
+}
+
+.content__wrap span:nth-child(4) {
+  bottom:-100% ;
+  left: 0 ;
+  width: 8px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, rgb(100, 0, 100));
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%, 100% {
+    bottom: 100%;
+  }
+}
