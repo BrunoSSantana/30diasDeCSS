@@ -101,6 +101,15 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 * Uso de [**rotate()**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-function/rotate)
 
+### Challenge09:
+[![challenge09](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge09.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge09)
+
+**O que aprendi**
+
+* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+* Uso de [**:nth-child()**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)(*pseudo-classe*)
+* Uso da função [**linear-gradient()**](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
+
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
 
