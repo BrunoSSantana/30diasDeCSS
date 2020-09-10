@@ -110,6 +110,17 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**:nth-child()**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)(*pseudo-classe*)
 * Uso da função [**linear-gradient()**](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
 
+### Challenge10:
+[![challenge10](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge10.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge10)
+
+**O que aprendi**
+
+* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+* Uso de [**sgv**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)(*pseudo-classe*)
+* Uso do [**stroke-dasharray**](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-dasharray)
+* Uso do [**stroke-dashoffset**](https://developer.mozilla.org/pt-BR/docs/Web/SVG/Attribute/stroke-dashoffset)
+
+
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
 
