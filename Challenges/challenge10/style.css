@@ -25,15 +25,26 @@ header {
   align-items: center;
 }
 
-h1 {
-  color: #fff;
-  font-size: 3vw;
+.stroke {
+  width: 20vw;
+  margin: 0 2vw;
+  padding: 2vw;
+
+  stroke-dasharray: 50%;
+  stroke-dashoffset: 0;
+
+  animation: stroke 4s ease-in-out infinite alternate;
+
+  background: #333;
+  border-radius: 10%;
 }
 
-.stroke {
-  stroke-dasharray: 99;
-  stroke-dashoffset: 0;
-  animation: stroke 2s ease-in-out infinite alternate;
+.stroke:hover {
+  fill: aliceblue;
+  stroke-dasharray: 0;
+  stroke: none;
+  transition: 1s ease-in-out;
+
 }
 
 @keyframes stroke {
@@ -41,8 +52,11 @@ h1 {
   {
     stroke-dashoffset: 0;
   }
-  100%
+  50%
   {
-    stroke-dashoffset: 130;
+    stroke-dashoffset: 100%;
+  }
+  100% {
+    stroke-dashoffset: 0;
   }
 }
