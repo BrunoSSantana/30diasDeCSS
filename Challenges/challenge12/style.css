@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 4vw;
+
+  overflow: hidden;
+  position: relative;
+}
+.fullScreen {
+  width: 100vw;
+  height: 100vh;
+
+  
+  display: flex;
+  align-items: center;
+  z-index: 0;
+}
+.content {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+
+  background: rgba(0, 0, 0, 0.3);
+  
+}
+
+.content h2 {
+  text-transform: uppercase;
+  background: linear-gradient(60deg, #08AEEA, #2AF598);
+  background-clip: text;
+  color: transparent;
+
+  width: 500px;
+
+  position: absolute;
+  top: 10vh;
+}
