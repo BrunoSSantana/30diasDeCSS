@@ -38,12 +38,18 @@ body {
 
 .content h2 {
   text-transform: uppercase;
-  background: linear-gradient(60deg, #08AEEA, #2AF598);
-  background-clip: text;
+  /* background: linear-gradient(60deg, #08AEEA, #2AF598 50%); */
+  /* background-clip: text; */
   color: transparent;
 
-  width: 500px;
+  letter-spacing: 0.5vw;
 
-  position: absolute;
-  top: 10vh;
+  width: 900px;
+
+  margin: auto;
+
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #f5f5f5;
+  stroke-dasharray: 50;
+
 }
