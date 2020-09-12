@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  width: 100%;
   height: 100vh;
 
   background: radial-gradient(#fff, #ebebeb);
@@ -19,10 +18,50 @@ body {
 
 .text {
   background: linear-gradient(45deg, red, blue);
-  -webkit-background-clip: text;
-
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 
   border-right: 2px solid red;
-  padding-right: 1vw;
+
+  white-space: nowrap;
+  overflow: hidden;
+
+  width: 0;
+}
+
+.text--animation {
+  animation: blinkcursor 0.45s steps(40) infinite normal, type 4.5s steps(40) 1s normal, breack 4.5s steps(40) 6s normal;
+  animation-fill-mode: forwards;
+}
+
+.ty {
+  animation: blinkcursor 0.45s steps(40) infinite normal, ty 2s steps(40) 11s normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+  to {
+    width: 81vw;
+  }
+}
+
+@keyframes blinkcursor {
+  from {
+  border-right: 2px solid red;
+  }
+  to {
+    border-right: transparent;
+  }
+}
+
+@keyframes breack {
+  from {
+    width: 81vw;
+  }
+  to {
+    width: 0;
+  }
 }
