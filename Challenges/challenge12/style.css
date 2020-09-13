@@ -7,49 +7,91 @@ body {
   height: 100vh;
 
   font-family: 'Kumbh Sans', sans-serif;
-  font-size: 4vw;
-
-  overflow: hidden;
-  position: relative;
-}
-.fullScreen {
-  width: 100vw;
-  height: 100vh;
-
-  
-  display: flex;
-  align-items: center;
-  z-index: 0;
-}
-.content {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-
-  width: 100vw;
-  height: 100vh;
+  font-size: 3vw;
+  color: #fff;
 
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 37.5vw;
+  background: #121839;
+  padding: 1.2vw;
 
-  background: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+  position: relative;
+}
+.arrow {
+  position: absolute;
   
+  width: 7vw;
+  height: 2px;
+
+  background: #fff;
+  top: 50%;
+  right: 0;
+
+  transition: all 0.4s ease;
 }
 
-.content h2 {
-  text-transform: uppercase;
-  /* background: linear-gradient(60deg, #08AEEA, #2AF598 50%); */
-  /* background-clip: text; */
-  color: transparent;
+.arrow::after {
+  content: '';
+  position: absolute;
+  right: -5px;
+  top: -5px;
 
-  letter-spacing: 0.5vw;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
 
-  width: 900px;
+.arrow--first {
+  position: absolute;
 
-  margin: auto;
+  width: 5vw;
+  height: 2px;
 
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #f5f5f5;
-  stroke-dasharray: 50;
+  background: #121839;
+  top: 50%;
+  right: -5vw;
 
+  transition: all 0.4s ease;
+}
+
+.arrow--first::after {
+  content: '';
+  position: absolute;
+  right: -6px;
+  top: -5px;
+
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #121839;
+}
+
+.content:hover > .arrow--first {
+  transform: translate(100px);
+  animation: flash 9s ease normal;
+  opacity: 0;
+}
+
+.content:hover > .arrow {
+  transform: translate(7vw);
+  background: #121839;
+}
+.content:hover > .arrow::after {
+  border-left: 6px solid #121839;
+}
+@keyframes flash {
+  0% {
+    width: 7vw;
+  }
+  50% {
+    width:0 ;
+  }
+  100% {
+    width: 7vw;
+  }
 }
