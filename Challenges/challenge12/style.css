@@ -34,6 +34,7 @@ body {
   right: 0;
 
   transition: all 0.4s ease;
+
 }
 
 .arrow::after {
@@ -63,7 +64,7 @@ body {
 .arrow--first::after {
   content: '';
   position: absolute;
-  right: -6px;
+  right: -5px;
   top: -5px;
 
   border-top: 6px solid transparent;
@@ -73,12 +74,11 @@ body {
 
 .content:hover > .arrow--first {
   transform: translate(100px);
-  animation: flash 9s ease normal;
   opacity: 0;
 }
 
 .content:hover > .arrow {
-  transform: translate(7vw);
+  transform: translate(6vw);
   background: #121839;
 }
 .content:hover > .arrow::after {
