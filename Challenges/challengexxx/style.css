@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 3vw;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  position: absolute;
+  top: 50px;
+  margin: auto;
+
+  width: 60vw;
+  height: 85vh;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+
+  overflow: hidden;
+}
+/*  */
+.box {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.front, .back {
+  position: absolute;
+  overflow: hidden;
+
+  backface-visibility: hidden;
+
+  width: 100%;
+  height: 100%;
+
+  transition: transform .6s linear;
+}
+
+/* frentes */
+
+.front {
+  transform: perspective(600px) rotateY(0deg);
+}
+/* versos */
+
+.back {
+  background: #f1f1f1;
+  transform: perspective(600px) rotateY(180deg);
+}
+
+
+
+.box:hover > .front {
+  transform: perspective(600px) rotateY(-180deg);
+
+}
+.box:hover > .back {
+  transform: perspective(600px) rotateY(0deg);
+ 
+}
+
+/* colors */
+.box1 .back {
+  background: #f0f4ff;
+}
+.box2 .back {
+  background: #333;
+}
+.box3 .back {
+  background: #6b4e4e;
+}
+.box4 .back {
+  background: #43d4df;
+}
+.box5 .back {
+  background: #F4F440;
+} 
+.box6 .back {
+  background: #0be016;
+}
