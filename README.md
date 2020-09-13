@@ -127,8 +127,17 @@ Para participar também, [clique aqui][linkIssue]
 **O que aprendi**
 
 * Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
-* Uso da função [**linear-gradient()**](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
+* Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
 * Uso do [**background-clip**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/background-clip)
+
+### Challenge12:
+[![challenge12](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge12.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge12)
+
+**O que aprendi**
+
+* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+* Uso da função [**linear-gradient()**](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
+* Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
