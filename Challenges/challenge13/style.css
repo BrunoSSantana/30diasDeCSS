@@ -2,93 +2,116 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
-  height: 100vh;
 
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 3vw;
   color: #fff;
+}
+body {
+  height: 100vh;
+
+  background: #222;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-
-.content {
-  position: absolute;
-  top: 50px;
-  margin: auto;
-
-  width: 60vw;
-  height: 85vh;
-
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
-
-  overflow: hidden;
-}
-/*  */
-.box {
-  background: #000;
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.front, .back {
-  position: absolute;
-  overflow: hidden;
-
-  backface-visibility: hidden;
-
-  width: 100%;
-  height: 100%;
-
-  transition: transform .6s linear;
-}
-
-/* frentes */
 
 .front {
-  transform: perspective(600px) rotateY(0deg);
+  margin-bottom: 2.5vh;
+  width: 60vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-/* versos */
-
-.back {
-  background: #f1f1f1;
-  transform: perspective(600px) rotateY(180deg);
-}
-
-
-
-.box:hover > .front {
-  transform: perspective(600px) rotateY(-180deg);
-
-}
-.box:hover > .back {
-  transform: perspective(600px) rotateY(0deg);
- 
+.front h2 {
+  text-align: center;
 }
 
-/* colors */
-.box1 .back {
-  background: #f0f4ff;
+.div {
+  content: '';
+  width: 9vw;
+  height: 1vh;
+  background: #50fa7b;
+  margin: 1vh;
+  border-radius: 20px;
 }
-.box2 .back {
-  background: #333;
+
+.front p {
+  font-size: 1vw;
+
 }
-.box3 .back {
-  background: #6b4e4e;
+
+#svg {
+  width: 50vw;
+  height: auto;
 }
-.box4 .back {
-  background: #43d4df;
+
+#status {
+  animation: width 1s ease infinite alternate;
 }
-.box5 .back {
-  background: #F4F440;
-} 
-.box6 .back {
-  background: #0be016;
+
+#text {
+  animation: width 1.2s ease infinite alternate;
+}
+
+#text_2 {
+  animation: width 1.2s 0.4s ease infinite alternate;
+}
+
+#text_3 {
+  animation: width 0.8s ease infinite alternate;
+}
+
+#text_4 {
+  animation: width 1s 0.4s ease infinite alternate;
+}
+
+#header__status--2 {
+  animation: width 1s ease infinite alternate;
+}
+
+#header__status--1 {
+  animation: width 1.5s ease infinite alternate;
+}
+
+#infos__profile--bot {
+  animation: width 1.3s ease infinite alternate; 
+}
+
+#infos__profile--bot_2 {
+  animation: width 1.1s ease infinite alternate;
+}
+
+#infos__profile--top {
+  animation: width 1.5s ease infinite alternate; 
+}
+
+#infos__profile--top_2 {
+  animation: width 1.1s 0.4s ease infinite alternate;
+}
+
+@keyframes width {
+  from {
+    width: 98px;
+  }
+  to {
+    width: 20px;
+  }
+}
+
+#bar {
+  animation: heigth 1s ease infinite alternate;
+}
+
+@keyframes heigth {
+  from {
+    height: 414px;
+  }
+  to {
+    height: 470px;
+  }
 }
