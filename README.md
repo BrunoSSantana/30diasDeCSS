@@ -147,6 +147,14 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**sgv**](https://developer.mozilla.org/pt-BR/docs/Web/SVG)
 * Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
 
+### Challenge14:
+[![challenge14](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge14.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge14)
+
+**O que aprendi**
+
+* Uso do [**::before**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
+* Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
+
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
 
