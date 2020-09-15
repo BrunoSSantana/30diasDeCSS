@@ -139,6 +139,14 @@ Para participar também, [clique aqui][linkIssue]
 * Uso da função [**linear-gradient()**](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
 * Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
+### Challenge13:
+[![challenge13](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge13.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge13)
+
+**O que aprendi**
+
+* Uso de [**sgv**](https://developer.mozilla.org/pt-BR/docs/Web/SVG)
+* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
 
