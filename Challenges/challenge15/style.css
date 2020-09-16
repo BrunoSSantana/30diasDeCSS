@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh ;
+  width: 100vw;
+
+  background: #f1faee;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 60px;
+  height: 60px;
+}
+
+.box {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  
+}
+
+.box:nth-child(1) {
+  animation: box1 2s infinite linear;
+  background: rgba(29, 53, 87, 0.98);
+  right: 30px;
+  bottom: 30px;
+  width: 30px;
+  height: 30px;
+}
+.box:nth-child(2) {
+  /* animation: box2 2s infinite linear; */
+  /* background: #e63946; */
+  right: 30px;
+  bottom: 0px;
+  width: 30px;
+  height: 30px;
+}
+.box:nth-child(3) {
+  animation: box3 2s infinite linear;
+  background: rgba(168, 218, 220, 0.98);
+  right: 0px;
+  bottom: 0px;
+  width: 30px;
+  height: 30px;
+}
+.box:nth-child(4) {
+  animation: box4 2s infinite linear;
+  background: rgba(68, 122, 156, 0.98);
+  right: 0px;
+  bottom: 30px;
+  width: 30px;
+  height: 30px;
+
+}
+
+@keyframes box1 {
+0% {
+  right: 30px;
+  bottom: 30px;
+  width: 30px;
+  height: 30px;
+
+}
+12.5% {
+  right: 0px;
+  bottom: 30px;
+  width: 60px;
+  height: 30px;
+}
+25% {
+  right: 0px;
+  bottom: 30px;
+  width: 30px;
+  height: 30px;
+}
+37.5% {
+  right: 0px;
+  bottom: 0px;
+  width: 30px;
+  height: 60px;
+}
+50% {
+  right: 0px;
+  bottom: 0px;
+  width: 30px;
+  height: 30px;
+}
+62.5% {
+  right: 0px;
+  bottom: 0px;
+  width: 60px;
+  height: 30px;
+}
+75% {
+  right: 30px;
+  bottom: 0px;
+  width: 30px;
+  height: 30px;
+}
+87.5% {
+  right: 30px;
+  bottom: 0px;
+  width: 30px;
+  height: 60px;
+}
+100% {
+  right: 30px;
+  bottom: 30px;
+  width: 30px;
+  height: 30px;
+}
+}
+
+@keyframes box2 {
+  0% {
+    right: 30px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+  }
+  12.5% {
+    right: 30px;
+    bottom: 0px;
+    width: 30px;
+    height: 60px;
+  }
+  25% {
+    right: 30px;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  32.5% {
+    right: 0px;
+    bottom: 30px;
+    width: 60px;
+    height: 30px;
+  }
+  50% {
+    right: 0px;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  62.5% {
+    right: 0px;
+    bottom: 0px;
+    width: 30px;
+    height: 60px;
+  }
+  75% {
+    right: 0px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;  
+  }
+  87.5% {
+    right: 0px;
+    bottom: 0px;
+    width: 60px;
+    height: 30px;
+  }
+  100% {
+    right: 30px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@keyframes box3 {
+  0% {
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    height: 30px;
+  }
+  12.5% {
+    right: 0px;
+    bottom: 0px;
+    width: 60px;
+    height: 30px;
+  }
+  25% {
+    right: 30px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+  }
+  32.5% {
+    right: 30px;
+    bottom: 0px;
+    width: 30px;
+    height: 60px;
+  }
+  50% {
+    right: 30px;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  62.5% {
+    right: 0px;
+    bottom: 30px;
+    width: 60px;
+    height: 30px;
+  }
+  75% {
+    right: 0px;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  87.5% {
+    right: 0px;
+    bottom: 0px;
+    width: 30px;
+    height: 60px;
+  }
+  100% {
+    right: 0px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@keyframes box4 {
+  0% {
+    right: 0px;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  12.5% {
+    right: 0px;
+    bottom: 0px;
+    width: 30px;
+    height: 60px;
+  }
+  25% {
+    right: 0px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+  }
+  32.5% {
+    right: 0px;
+    bottom: 0px;
+    width: 60px;
+    height: 30px;
+  }
+  50% {
+    right: 30px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+  }
+  62.5% {
+    right: 30px;
+    bottom: 0px;
+    width: 30px;
+    height: 60px;
+  }
+  75% {
+    right: 30px;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  87.5% {
+    right: 0px;
+    bottom: 30px;
+    width: 60px;
+    height: 30px;
+  }
+  100% {
+    right: 0px;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+  }
+}
