@@ -1,0 +1,41 @@
+
+
+html {
+  height: 100%;
+  font-family: 'Montserrat';
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  --bg: #FCFCFC;
+  --bg-panel: #EBEBEB;
+  --color-heading: #0077FF;
+  --color-text: #333333;
+}
+
+body {
+  background: var(--bg);
+}
+
+.container {
+  background: var(--bg-panel);
+  margin: 5em;
+  padding: 5em;
+  border-radius: 15px;
+
+  display: grid;
+  grid-template-columns: 80% auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+    "title switch"
+    "content content";
+
+  h1 {
+    margin: 0;
+    color: var(--color-heading);
+  }
+  p {
+    color: var();
+  }
+}
