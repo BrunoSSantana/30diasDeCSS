@@ -162,6 +162,16 @@ Para participar também, [clique aqui][linkIssue]
 
 * Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
 
+### Challenge16:
+[![challenge16](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge16.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge16)
+
+**O que aprendi**
+
+* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+* Uso de [**transform: rotation()**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-function/rotate)
+* Uso de [**transform: translate()**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-function/translate)
+* Manipulação do [**border**](https://css-tricks.com/almanac/properties/b/border/)
+
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
 
