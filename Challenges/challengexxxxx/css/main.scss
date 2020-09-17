@@ -1,0 +1,26 @@
+@mixin grid_align {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  background: #2b2d42;
+  margin: 0;
+  padding: 0;
+
+}
+input[type=text] {
+  border: none;
+}
+header {
+  width: 20vw;
+  height: 100vh;
+  background: #8d99ae;
+}
+
+.container {
+  position: relative;
+  width: 20vw;
+  top: 15vh;
+}
