@@ -1,26 +1,66 @@
-@mixin grid_align {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
+@mixin gridalign {
+  display: grid;
+  grid-template-columns: 30px auto;
+  background: #000;
+  i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
-
-body {
-  background: #2b2d42;
+* {
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
 input[type=text] {
   border: none;
-}
-header {
-  width: 20vw;
-  height: 100vh;
-  background: #8d99ae;
+  width: 200px;
+  background: #333;
+  color: white;
 }
 
-.container {
-  position: relative;
-  width: 20vw;
-  top: 15vh;
+header {
+  max-width: 400px;
+  height: 100vh;
+  
+  background:#222;
+  color: white;
+}
+
+.content {
+  position: absolute;
+  top: 20vh;
+}
+
+.container{
+  &__search {
+    @include gridalign();
+  }
+  &__people {
+    @include gridalign();
+  }
+}
+
+.saves {
+  &__favs {
+    @include gridalign();
+
+  }
+  &__work {
+    @include gridalign();
+    
+  }
+  &__up {
+    @include gridalign();
+  }
+}
+
+.adds {
+  &__plugins {
+    @include gridalign();
+  }@include gridalign();
+  &__notif {
+
+  }
 }
