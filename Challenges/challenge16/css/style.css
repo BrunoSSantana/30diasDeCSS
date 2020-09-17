@@ -30,6 +30,8 @@ body {
 
   width: 80%;
   height: 80%;
+
+  animation: rotation 2s ease infinite alternate;
 }
 
 .circle:nth-child(2) {
@@ -47,6 +49,8 @@ body {
 
   width: 60%;
   height: 60%;
+
+  animation: rotation 2s ease 0.3s infinite;
 }
 
 .circle:nth-child(3) {
@@ -64,6 +68,8 @@ body {
 
   width: 40%;
   height: 40%;
+
+  animation: rotation 2s ease 0.5s infinite alternate;
 }
 
 .circle:nth-child(4) {
@@ -81,4 +87,16 @@ body {
 
   width: 50%;
   height: 50%;
+
+  transform-origin: center center;
+  animation: rotation 2s ease infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
