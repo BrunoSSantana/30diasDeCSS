@@ -3,33 +3,47 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-size: 1.2vw;
+  font-family: 'Roboto';
 }
 
 input[type=text] {
-  border: none;
   width: 200px;
-  background: #333;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  background: rgba(51, 51, 51, 0.5);
   color: white;
 }
 
 header {
-  max-width: 400px;
+  max-width: 300px;
   height: 100vh;
   background: #222;
   color: white;
 }
 
 .content {
-  position: absolute;
-  top: 20vh;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content__head {
+  margin: 130px 0;
 }
 
 .container__search {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30px auto;
-      grid-template-columns: 30px auto;
-  background: #000;
+  -ms-grid-columns: 60px auto;
+      grid-template-columns: 60px auto;
+  margin: 0px 0px 20px;
 }
 
 .container__search i {
@@ -42,14 +56,15 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #0077FF;
 }
 
 .container__people {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30px auto;
-      grid-template-columns: 30px auto;
-  background: #000;
+  -ms-grid-columns: 60px auto;
+      grid-template-columns: 60px auto;
+  margin: 0px 0px 20px;
 }
 
 .container__people i {
@@ -62,14 +77,15 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #0077FF;
 }
 
 .saves__favs {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30px auto;
-      grid-template-columns: 30px auto;
-  background: #000;
+  -ms-grid-columns: 60px auto;
+      grid-template-columns: 60px auto;
+  margin: 0px 0px 20px;
 }
 
 .saves__favs i {
@@ -82,14 +98,15 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #0077FF;
 }
 
 .saves__work {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30px auto;
-      grid-template-columns: 30px auto;
-  background: #000;
+  -ms-grid-columns: 60px auto;
+      grid-template-columns: 60px auto;
+  margin: 0px 0px 20px;
 }
 
 .saves__work i {
@@ -102,14 +119,15 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #0077FF;
 }
 
 .saves__up {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30px auto;
-      grid-template-columns: 30px auto;
-  background: #000;
+  -ms-grid-columns: 60px auto;
+      grid-template-columns: 60px auto;
+  margin: 0px 0px 20px;
 }
 
 .saves__up i {
@@ -122,22 +140,15 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.adds {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 30px auto;
-      grid-template-columns: 30px auto;
-  background: #000;
+  color: #0077FF;
 }
 
 .adds__plugins {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30px auto;
-      grid-template-columns: 30px auto;
-  background: #000;
+  -ms-grid-columns: 60px auto;
+      grid-template-columns: 60px auto;
+  margin: 0px 0px 20px;
 }
 
 .adds__plugins i {
@@ -150,9 +161,18 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #0077FF;
 }
 
-.adds i {
+.adds__notif {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60px auto;
+      grid-template-columns: 60px auto;
+  margin: 0px 0px 20px;
+}
+
+.adds__notif i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,5 +182,43 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #0077FF;
+}
+
+.profile {
+  font-size: 0.8vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 20px;
+}
+
+.profile__img {
+  background-image: url("https://images.unsplash.com/photo-1545682113-be24ae6223d7");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+
+.profile__img::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #09bb21;
+  position: absolute;
+  border-radius: 50%;
+  top: 2px;
+  right: 5px;
+}
+
+.profile h1 {
+  margin: 0 15px;
 }
 /*# sourceMappingURL=main.css.map */
