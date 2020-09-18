@@ -28,13 +28,13 @@ body {
 
 .newsletter h1 {
   text-transform: uppercase;
-  line-height: 3vw;
-  font-size: max(30px, 4vw);
+  /* line-height: 2.5vw; */
+  font-size: max(14pt, 1.5vw);
   color: #fff;
 }
 .newsletter h1 span {
   display: block;
-  font-size: 3vw;
+  font-size: max(28pt, 3vw);
 }
 .newsletter p {
   color: #fff;
