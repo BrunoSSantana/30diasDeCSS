@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body {
+  background: #390099;
+}
+
+.unit {
+  text-align: center;
+}
+
+.unit p {
+  margin-top: 100px;
+  font-weight: 100;
+  color: white;
+  letter-spacing: 4px;
+}
+
+.heart {
+  position: relative;
+  font-size: 0;
+  width: 138px;
+}
+
+[class*="heart-piece-"] {
+  position: relative;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.heart-piece-1 {
+  left: 16px*1px;
+  -webkit-animation-delay: 0.15s*1s;
+          animation-delay: 0.15s*1s;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+  background: #47b264;
+  background: #1470bd;
+  background: #76469a;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+}
+
+.heart-piece-2 {
+  left: 16px*2px;
+  -webkit-animation-delay: 0.15s*2s;
+          animation-delay: 0.15s*2s;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+  background: #47b264;
+  background: #1470bd;
+  background: #76469a;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+}
+
+.heart-piece-3 {
+  left: 16px*3px;
+  -webkit-animation-delay: 0.15s*3s;
+          animation-delay: 0.15s*3s;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+  background: #47b264;
+  background: #1470bd;
+  background: #76469a;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+}
+
+.heart-piece-4 {
+  left: 16px*4px;
+  -webkit-animation-delay: 0.15s*4s;
+          animation-delay: 0.15s*4s;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+  background: #47b264;
+  background: #1470bd;
+  background: #76469a;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+}
+
+.heart-piece-5 {
+  left: 16px*5px;
+  -webkit-animation-delay: 0.15s*5s;
+          animation-delay: 0.15s*5s;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+  background: #47b264;
+  background: #1470bd;
+  background: #76469a;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+}
+
+.heart-piece-6 {
+  left: 16px*6px;
+  -webkit-animation-delay: 0.15s*6s;
+          animation-delay: 0.15s*6s;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+  background: #47b264;
+  background: #1470bd;
+  background: #76469a;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+}
+
+.heart-piece-7 {
+  left: 16px*7px;
+  -webkit-animation-delay: 0.15s*7s;
+          animation-delay: 0.15s*7s;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+  background: #47b264;
+  background: #1470bd;
+  background: #76469a;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+}
+
+.heart-piece-8 {
+  left: 16px*8px;
+  -webkit-animation-delay: 0.15s*8s;
+          animation-delay: 0.15s*8s;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+  background: #47b264;
+  background: #1470bd;
+  background: #76469a;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+}
+
+.heart-piece-9 {
+  left: 16px*9px;
+  -webkit-animation-delay: 0.15s*9s;
+          animation-delay: 0.15s*9s;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+  background: #47b264;
+  background: #1470bd;
+  background: #76469a;
+  background: #ec2d73;
+  background: #eb5324;
+  background: #fdc800;
+}
+/*# sourceMappingURL=main.css.map */
