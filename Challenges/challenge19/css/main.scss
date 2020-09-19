@@ -1,0 +1,158 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Roboto';
+}
+header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    background: #22242A;
+}
+
+.left__area{
+    & h3 {
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 900;
+        color: #fff;
+        margin: 0;
+    }
+    & span {
+        color: #1DC4E7;
+    }
+}
+
+.logout_btn {
+    float: right;
+    margin: top;
+    padding: 5px;
+    margin-top: -30px;
+    margin-right: 40px;
+
+    background: #19B3D3;
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+
+    transition: 0.5s;
+
+    // border-radius: 2px;
+    &:hover {
+        background: #0D9DBB;
+    }
+}
+
+.sidebar {
+    background: #2F323A;
+
+    overflow: hidden;
+
+    margin-top: 60px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+
+    transition: .5s;
+    transition-property: left;
+
+    &__profile {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin-bottom: 10px;
+    }
+
+    & h4 {
+        color: #ccc;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    & a {
+        display: block;
+        width: 100%;
+
+        text-decoration: none;
+        color: #fff;
+        line-height: 60px;
+
+        padding-left: 40px;
+        box-sizing: border-box;
+
+        transition: 0.5s;
+        &:hover {
+            background: #19B3D3;
+        }
+    }
+    & i {
+        padding-right: 10px;
+    }
+}
+
+label #sidebar_btn {
+    position: fixed;
+    z-index: 1;
+    left: 300px;
+
+    cursor: pointer;
+
+    color: #fff;
+    font-size: 20px;
+
+    margin: 5px 0;
+
+    transition: 0.5s;
+
+    &:hover {
+        color: #19B3D3;
+    }
+
+}
+
+#check:checked ~ .sidebar {
+    left: -190px;
+    & a {
+        font-size: 20px;
+        margin-left: 170px;
+        width: 80px;
+
+        & span {
+            display: none;
+        }
+    }
+}
+
+.content {
+    margin-left: 250px;
+    background: url(https://images.unsplash.com/photo-1520103713487-e668554445c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+    transition: 0.5s;
+    transition-property: margin-left;
+}
+
+#check {
+    display: none;
+    &:checked ~ .content {
+        margin-left: 60px;
+        
+    }
+}
