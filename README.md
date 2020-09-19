@@ -177,7 +177,8 @@ Para participar também, [clique aqui][linkIssue]
 
 **O que aprendi**
 
-* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+* Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
+* Uso da função [**linear-gradient()**](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
 
 ### Challenge18:
 [![challenge18](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge18.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge18)
