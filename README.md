@@ -172,6 +172,21 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**transform: translate()**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-function/translate)
 * Manipulação do [**border**](https://css-tricks.com/almanac/properties/b/border/)
 
+### Challenge17:
+[![challenge17](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge17.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge17)
+
+**O que aprendi**
+
+* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+
+### Challenge18:
+[![challenge18](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge18.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge18)
+
+**O que aprendi**
+
+* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+* Uso de [**seletores**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Getting_Started/Seletores)
+
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
 
