@@ -48,7 +48,7 @@ header {
 }
 
 .logout_btn:hover {
-  background: #0D9DBB;
+  background: #1DC4E7;
 }
 
 .sidebar {
@@ -74,7 +74,7 @@ header {
 }
 
 .sidebar h4 {
-  color: #ccc;
+  color: #fff;
   margin-top: 0;
   margin-bottom: 20px;
 }

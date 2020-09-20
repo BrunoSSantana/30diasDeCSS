@@ -1,3 +1,13 @@
+// <--- Colors ---> //
+
+$bg_header: #22242A;
+$bg_saidbar: #2F323A;
+$bg_turquesa: #19B3D3;
+$color_span: #1DC4E7;
+$color_font: #fff;
+
+// <---Cold---> //
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +27,7 @@ header {
     width: 100%;
     height: 60px;
     padding: 20px;
-    background: #22242A;
+    background: $bg_header;
 }
 
 .left__area{
@@ -25,11 +35,11 @@ header {
         text-transform: uppercase;
         font-size: 22px;
         font-weight: 900;
-        color: #fff;
+        color: $color_font;
         margin: 0;
     }
     & span {
-        color: #1DC4E7;
+        color: $color_span;
     }
 }
 
@@ -40,9 +50,9 @@ header {
     margin-top: -30px;
     margin-right: 40px;
 
-    background: #19B3D3;
+    background: $bg_turquesa;
 
-    color: #fff;
+    color: $color_font;
     text-decoration: none;
     font-size: 15px;
     font-weight: 600;
@@ -51,12 +61,12 @@ header {
 
     // border-radius: 2px;
     &:hover {
-        background: #0D9DBB;
+        background: $color_span;
     }
 }
 
 .sidebar {
-    background: #2F323A;
+    background: $bg_saidbar;
 
     overflow: hidden;
 
@@ -78,7 +88,7 @@ header {
     }
 
     & h4 {
-        color: #ccc;
+        color: $color_font;
         margin-top: 0;
         margin-bottom: 20px;
     }
@@ -87,7 +97,7 @@ header {
         width: 100%;
 
         text-decoration: none;
-        color: #fff;
+        color: $color_font;
         line-height: 60px;
 
         padding-left: 40px;
@@ -95,7 +105,7 @@ header {
 
         transition: 0.5s;
         &:hover {
-            background: #19B3D3;
+            background: $bg_turquesa;
         }
     }
     & i {
@@ -110,7 +120,7 @@ label #sidebar_btn {
 
     cursor: pointer;
 
-    color: #fff;
+    color: $color_font;
     font-size: 20px;
 
     margin: 5px 0;
@@ -118,7 +128,7 @@ label #sidebar_btn {
     transition: 0.5s;
 
     &:hover {
-        color: #19B3D3;
+        color: $bg_turquesa;
     }
 
 }
