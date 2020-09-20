@@ -188,6 +188,18 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
 * Uso de [**seletores**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Getting_Started/Seletores)
 
+### Challenge19:
+[![challenge19](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge19.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge19)
+
+**O que aprendi**
+
+* Uso de [**seletores**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Getting_Started/Seletores)
+* Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
+* Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+* Uso do [**position**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)
+
+
+
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
 
