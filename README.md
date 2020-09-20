@@ -197,7 +197,7 @@ Para participar também, [clique aqui][linkIssue]
 * Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
 * Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 * Uso do [**position**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)
-
+* Uso do [**background-image**](https://developer.mozilla.org/pt-PT/docs/Web/CSS/background-image)
 
 
 ## :speech_balloon: Contato
