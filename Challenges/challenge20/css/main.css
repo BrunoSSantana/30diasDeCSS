@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  width: w;
+  height: h;
+  border-radius: w;
+  font-family: 'Roboto';
+  color: #fff;
+}
+
+.header {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1493815793585-d94ccbc86df8");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.midle {
+  height: 80vh;
+  position: relative;
+  color: #444;
+}
+
+.footer {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1458441087617-24d758e383f1");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.content h1 {
+  margin: 0 auto;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.content p {
+  text-align: center;
+  width: 500px;
+  margin: 20px auto 0;
+}
+
+.content .cards {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .cards .card {
+  width: 150px;
+  height: 200px;
+  margin: 30px;
+  border-radius: 16px;
+  background: linear-gradient(45deg, #449, #9F9);
+}
+/*# sourceMappingURL=main.css.map */

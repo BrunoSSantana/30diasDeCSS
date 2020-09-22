@@ -1,0 +1,98 @@
+// <---Mixin---> //
+@mixin size($w:100%,$h:100%) {
+    width: w;
+    height: h;
+
+    @if $w or $h != 0 {
+    border-radius: $w;
+  }
+
+}
+
+@mixin parallax($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+// <---Cold---> //
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html,
+body {
+    @include size(w, h);
+
+    font-family: 'Roboto';
+    color: #fff;
+}
+.header {
+    height: 100vh;
+
+    @include parallax("https://images.unsplash.com/photo-1493815793585-d94ccbc86df8");
+}
+.midle {
+    height: 80vh;
+
+    position: relative;
+
+    color: #444
+}
+.footer {
+    height: 100vh;
+    
+    @include parallax("https://images.unsplash.com/photo-1458441087617-24d758e383f1")
+}
+.content {
+    padding: 20px 0;
+    // background: rgba(0, 0, 0, 0.589);
+    text-align: center;
+
+    position: relative;
+
+    h1 {
+        margin: 0 auto;
+        text-transform: uppercase;
+        margin: 20px;
+    }
+    p {
+        text-align: center;
+        width: 500px;
+        margin: 20px auto 0;
+    }
+    .cards {
+        position: absolute;
+
+        // @include size($w:100%, $h:250px );
+        width: 100%;
+        height: 250px;
+
+        // background: #00000086;
+
+        margin: 40px auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .card {
+            // @include size($w:150px, $h:200px );
+
+            width: 150px;
+            height: 200px;
+
+            margin: 30px;
+
+            border-radius: 16px;
+
+            background: linear-gradient(45deg, #449, #9F9);
+        }
+    }
+}
