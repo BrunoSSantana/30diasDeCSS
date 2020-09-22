@@ -199,6 +199,14 @@ Para participar também, [clique aqui][linkIssue]
 * Uso do [**position**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)
 * Uso do [**background-image**](https://developer.mozilla.org/pt-PT/docs/Web/CSS/background-image)
 
+### Challenge20:
+[![challenge20](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge20.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge20)
+
+**O que aprendi**
+
+
+* Uso do [**background**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/background)
+* Uso do [**position**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)
 
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
