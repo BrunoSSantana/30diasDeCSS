@@ -208,6 +208,18 @@ Para participar também, [clique aqui][linkIssue]
 * Uso do [**background**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/background)
 * Uso do [**position**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)
 
+### Challenge21:
+[![challenge21](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge21.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge21)
+
+**O que aprendi**
+
+* Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
+* Uso de [**::after**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after) (*pseudo-classe*)
+* Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/)
+* Manipulação do [**border**](https://css-tricks.com/almanac/properties/b/border/)
+
+
+
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
 
