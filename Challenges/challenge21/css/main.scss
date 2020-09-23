@@ -1,0 +1,91 @@
+// <---Mixin---> //
+@mixin size($w:100%,$h:100%) {
+    width: w;
+    height: h;
+
+    @if $w or $h != 0 {
+    border-radius: $w;
+  }
+
+}
+
+
+// <---Cold---> //
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Roboto';
+    color: #fff;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+	align-items: center;
+	
+	background: #FFF;
+}
+
+
+.heart {
+	position: relative;
+	left: 0px;
+
+	width: 100px;
+	height: 180px;
+
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	transform-origin: right bottom;
+
+	transition: 0.3s ease;
+
+	background: linear-gradient(45deg, #f8296e, #b4053f);
+
+	&:hover {
+		transform: rotate(40deg);
+
+		border-top-left-radius: 50px;
+		border-top-right-radius: 50px;
+		&::after {
+			transform: rotate(-90deg) translateY(100px);
+
+			border-top-left-radius: 50px;
+			border-top-right-radius: 50px;
+		}
+	}
+
+	&:after {
+		position: absolute;
+		content: '';
+
+		width: 100px;
+		height: 180px;
+
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+
+		transform-origin: left bottom;
+
+		transition: 0.3s ease;
+
+		background: linear-gradient(45deg, #111, #111);
+
+
+	}
+
+}
