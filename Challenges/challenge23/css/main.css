@@ -27,12 +27,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .container [class*="container__"] {
@@ -57,13 +57,13 @@ body {
 .container__heart {
   border: #CE99FF 6px solid;
   cursor: pointer;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s cubic-bezier(0.41, -0.07, 0, 1.94);
+  transition: 0.5s cubic-bezier(0.41, -0.07, 0, 1.94);
 }
 
 .container__heart:hover {
-  -webkit-box-shadow: -4px 0 20px #00000065;
-          box-shadow: -4px 0 20px #00000065;
+  -webkit-box-shadow: -4px 0 20px #0000003f;
+          box-shadow: -4px 0 20px #0000003f;
   width: 110px;
   height: 110px;
 }
@@ -78,13 +78,13 @@ body {
 .container__balloon {
   border: #75f5c0 6px solid;
   cursor: pointer;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s cubic-bezier(0.41, -0.07, 0, 1.94);
+  transition: 0.5s cubic-bezier(0.41, -0.07, 0, 1.94);
 }
 
 .container__balloon:hover {
-  -webkit-box-shadow: -4px 0 20px #00000065;
-          box-shadow: -4px 0 20px #00000065;
+  -webkit-box-shadow: -4px 0 20px #0000003f;
+          box-shadow: -4px 0 20px #0000003f;
   width: 110px;
   height: 110px;
 }
@@ -99,13 +99,13 @@ body {
 .container__message {
   border: #f38282 6px solid;
   cursor: pointer;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s cubic-bezier(0.41, -0.07, 0, 1.94);
+  transition: 0.5s cubic-bezier(0.41, -0.07, 0, 1.94);
 }
 
 .container__message:hover {
-  -webkit-box-shadow: -4px 0 20px #00000065;
-          box-shadow: -4px 0 20px #00000065;
+  -webkit-box-shadow: -4px 0 20px #0000003f;
+          box-shadow: -4px 0 20px #0000003f;
   width: 110px;
   height: 110px;
 }
@@ -113,5 +113,22 @@ body {
 .container__message:hover > .fas {
   font-size: 3.5rem;
   color: #f3f182;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    -webkit-animation-delay: -1ms !important;
+            animation-delay: -1ms !important;
+    -webkit-animation-duration: 1ms !important;
+            animation-duration: 1ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    -webkit-transition-duration: 0s !important;
+            transition-duration: 0s !important;
+    -webkit-transition-delay: 0s !important;
+            transition-delay: 0s !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */
