@@ -15,10 +15,15 @@ body {
   color: #f5f5f5;
 }
 
+.fas {
+  -webkit-transition: 0.3s cubic-bezier(0.41, -0.07, 0, 1.94);
+  transition: 0.3s cubic-bezier(0.41, -0.07, 0, 1.94);
+  font-size: 0;
+}
+
 .container {
   width: 100%;
   height: 100%;
-  background: #111;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,110 +35,83 @@ body {
           align-items: center;
 }
 
-.container .glitch {
-  text-transform: uppercase;
-  font-size: 6rem;
-  font-weight: 700;
-  text-shadow: 0.05em 0.025em 0 rgba(255, 0, 0, 0.75), 0.025em -0.05em 0 rgba(0, 0, 255, 0.75), -0.05em 0.025em 0 rgba(0, 255, 0, 0.75);
-  -webkit-animation: glitch 900ms infinite;
-          animation: glitch 900ms infinite;
+.container [class*="container__"] {
+  width: 100px;
+  height: 100px;
+  margin: 0 3rem;
+  border-radius: 50%;
+  background: #fff;
+  color: #222;
   position: relative;
-}
-
-.container .glitch span {
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 6rem;
-  top: 0;
-  left: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.container .glitch span:first-child {
-  -webkit-animation: glitch 750ms infinite;
-          animation: glitch 750ms infinite;
-  z-index: 1;
-  -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 45%, 0 45%);
-          clip-path: polygon(0 0%, 100% 0%, 100% 45%, 0 45%);
-  -webkit-transform: translate(-0.05em, -0.025em);
-          transform: translate(-0.05em, -0.025em);
-  opacity: 0.75;
+.container__heart {
+  border: #CE99FF 6px solid;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
 }
 
-.container .glitch span:last-child {
-  -webkit-animation: glitch 550ms infinite;
-          animation: glitch 550ms infinite;
-  z-index: 1;
-  -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
-          clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
-  -webkit-transform: translate(0.035em, 0.0125em);
-          transform: translate(0.035em, 0.0125em);
-  opacity: 0.8;
+.container__heart:hover {
+  -webkit-box-shadow: -4px 0 20px #00000065;
+          box-shadow: -4px 0 20px #00000065;
+  width: 110px;
+  height: 110px;
 }
 
-@-webkit-keyframes glitch {
-  0% {
-    text-shadow: 0.05em 0.025em 0 rgba(255, 0, 0, 0.75), 0.025em -0.05em 0 rgba(0, 0, 255, 0.75), -0.05em 0.025em 0 rgba(0, 255, 0, 0.75);
-  }
-  14% {
-    text-shadow: 0.01em -0.02em 0 rgba(255, 0, 0, 0.75), 0.005em 0.02em 0 rgba(0, 0, 255, 0.75), 0.01em 0em 0 rgba(0, 255, 0, 0.75);
-  }
-  15% {
-    text-shadow: -0.02em -0.05em 0 rgba(255, 0, 0, 0.75), -0.02em 0.05em 0 rgba(0, 0, 255, 0.75), 0.05em 0.025em 0 rgba(0, 255, 0, 0.75);
-  }
-  49% {
-    text-shadow: -0.02em 0.015em 0 rgba(255, 0, 0, 0.75), 0.05em -0.02em 0 rgba(0, 0, 255, 0.75), -0.05em 0.01em 0 rgba(0, 255, 0, 0.75);
-  }
-  50% {
-    text-shadow: 0.06em -0.025em 0 rgba(255, 0, 0, 0.75), -0.06em -0.025em 0 rgba(0, 0, 255, 0.75), -0.04em -0.025em 0 rgba(0, 255, 0, 0.75);
-  }
-  99% {
-    text-shadow: -0.01em -0.03em 0 rgba(255, 0, 0, 0.75), 0.01em 0.01em 0 rgba(0, 0, 255, 0.75), -0.01em -0.015em 0 rgba(0, 255, 0, 0.75);
-  }
-  100% {
-    text-shadow: -0.025em 0.025em 0 rgba(255, 0, 0, 0.75), 0.045em 0.025em 0 rgba(0, 0, 255, 0.75), 0.025em -0.025em 0 rgba(0, 255, 0, 0.75);
-  }
+.container__heart:hover > .fas {
+  font-size: 3.5rem;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  color: #f38282;
 }
 
-@keyframes glitch {
-  0% {
-    text-shadow: 0.05em 0.025em 0 rgba(255, 0, 0, 0.75), 0.025em -0.05em 0 rgba(0, 0, 255, 0.75), -0.05em 0.025em 0 rgba(0, 255, 0, 0.75);
-  }
-  14% {
-    text-shadow: 0.01em -0.02em 0 rgba(255, 0, 0, 0.75), 0.005em 0.02em 0 rgba(0, 0, 255, 0.75), 0.01em 0em 0 rgba(0, 255, 0, 0.75);
-  }
-  15% {
-    text-shadow: -0.02em -0.05em 0 rgba(255, 0, 0, 0.75), -0.02em 0.05em 0 rgba(0, 0, 255, 0.75), 0.05em 0.025em 0 rgba(0, 255, 0, 0.75);
-  }
-  49% {
-    text-shadow: -0.02em 0.015em 0 rgba(255, 0, 0, 0.75), 0.05em -0.02em 0 rgba(0, 0, 255, 0.75), -0.05em 0.01em 0 rgba(0, 255, 0, 0.75);
-  }
-  50% {
-    text-shadow: 0.06em -0.025em 0 rgba(255, 0, 0, 0.75), -0.06em -0.025em 0 rgba(0, 0, 255, 0.75), -0.04em -0.025em 0 rgba(0, 255, 0, 0.75);
-  }
-  99% {
-    text-shadow: -0.01em -0.03em 0 rgba(255, 0, 0, 0.75), 0.01em 0.01em 0 rgba(0, 0, 255, 0.75), -0.01em -0.015em 0 rgba(0, 255, 0, 0.75);
-  }
-  100% {
-    text-shadow: -0.025em 0.025em 0 rgba(255, 0, 0, 0.75), 0.045em 0.025em 0 rgba(0, 0, 255, 0.75), 0.025em -0.025em 0 rgba(0, 255, 0, 0.75);
-  }
+.container__balloon {
+  border: #75f5c0 6px solid;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  *, ::before, ::after {
-    -webkit-animation-delay: -1ms !important;
-            animation-delay: -1ms !important;
-    -webkit-animation-duration: 1ms !important;
-            animation-duration: 1ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-            animation-iteration-count: 1 !important;
-    background-attachment: initial !important;
-    scroll-behavior: auto !important;
-    -webkit-transition-duration: 0s !important;
-            transition-duration: 0s !important;
-    -webkit-transition-delay: 0s !important;
-            transition-delay: 0s !important;
-  }
+.container__balloon:hover {
+  -webkit-box-shadow: -4px 0 20px #00000065;
+          box-shadow: -4px 0 20px #00000065;
+  width: 110px;
+  height: 110px;
+}
+
+.container__balloon:hover > .fas {
+  font-size: 3.5rem;
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  color: #82a6f3;
+}
+
+.container__message {
+  border: #f38282 6px solid;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.container__message:hover {
+  -webkit-box-shadow: -4px 0 20px #00000065;
+          box-shadow: -4px 0 20px #00000065;
+  width: 110px;
+  height: 110px;
+}
+
+.container__message:hover > .fas {
+  font-size: 3.5rem;
+  color: #f3f182;
 }
 /*# sourceMappingURL=main.css.map */
