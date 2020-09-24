@@ -218,6 +218,18 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/)
 * Manipulação do [**border**](https://css-tricks.com/almanac/properties/b/border/)
 
+### Challenge22:
+[![challenge22](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge22.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge22)
+
+**O que aprendi**
+
+
+* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+* Uso do [**position**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)
+* Uso  do [**clip-path**](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)
+* Uso do [**text-shaow**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/text-shadow)
+* Uso do [**z-index**](https://developer.mozilla.org/pt-PT/docs/Web/CSS/z-index)
+
 
 
 ## :speech_balloon: Contato
