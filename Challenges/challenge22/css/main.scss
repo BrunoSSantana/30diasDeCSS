@@ -58,8 +58,8 @@ body {
         // color: red;
         z-index: 1;
 
-        clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
-        transform: translate(-.025em, -.025em);
+        clip-path: polygon(0 0%, 100% 0%, 100% 45%, 0 45%);
+        transform: translate(-.05em, -.025em);
 
         opacity: 0.75;
       }
@@ -69,7 +69,7 @@ body {
         z-index: 1;
 
         clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
-        transform: translate(.015em, .0125em);
+        transform: translate(.035em, .0125em);
 
         opacity: 0.8;
       }

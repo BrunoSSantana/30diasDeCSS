@@ -54,10 +54,10 @@ body {
   -webkit-animation: glitch 750ms infinite;
           animation: glitch 750ms infinite;
   z-index: 1;
-  -webkit-clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
-          clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
-  -webkit-transform: translate(-0.025em, -0.025em);
-          transform: translate(-0.025em, -0.025em);
+  -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 45%, 0 45%);
+          clip-path: polygon(0 0%, 100% 0%, 100% 45%, 0 45%);
+  -webkit-transform: translate(-0.05em, -0.025em);
+          transform: translate(-0.05em, -0.025em);
   opacity: 0.75;
 }
 
@@ -67,8 +67,8 @@ body {
   z-index: 1;
   -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
           clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
-  -webkit-transform: translate(0.015em, 0.0125em);
-          transform: translate(0.015em, 0.0125em);
+  -webkit-transform: translate(0.035em, 0.0125em);
+          transform: translate(0.035em, 0.0125em);
   opacity: 0.8;
 }
 
