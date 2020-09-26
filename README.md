@@ -204,7 +204,6 @@ Para participar também, [clique aqui][linkIssue]
 
 **O que aprendi**
 
-
 * Uso do [**background**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/background)
 * Uso do [**position**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)
 
@@ -235,12 +234,20 @@ Para participar também, [clique aqui][linkIssue]
 
 **O que aprendi**
 
-
 * Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/)
 * Uso  do [**clip-path**](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)
 * Uso do [**text-shaow**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/text-shadow)
 * Uso do [**z-index**](https://developer.mozilla.org/pt-PT/docs/Web/CSS/z-index)
 
+### Challenge24:
+[![challenge24](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge24.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge24)
+
+**O que aprendi**
+
+* Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/)
+* Uso de [**box-shadow**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow)
+* Uso do [**::before**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
+* Uso de [**seletores**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Getting_Started/Seletores)
 
 
 ## :speech_balloon: Contato
