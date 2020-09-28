@@ -249,6 +249,24 @@ Para participar também, [clique aqui][linkIssue]
 * Uso do [**::before**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
 * Uso de [**seletores**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Getting_Started/Seletores)
 
+### Challenge25:
+[![challenge25](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge25.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge25)
+
+**O que aprendi**
+
+* Uso de [**::after**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after) (*pseudo-classe*)
+* Uso do [**::before**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
+* Uso de [**box-shadow**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow)
+* Uso de [**transform**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+
+### Challenge26:
+[![challenge26](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge26.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge26)
+
+**O que aprendi**
+
+* Uso do [**z-index**](https://developer.mozilla.org/pt-PT/docs/Web/CSS/z-index)
+* Uso de [**-webkit-text-stroke-color**](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke-color)
+* Uso de [**-webkit-text-stroke-width**](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke-width)
 
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
