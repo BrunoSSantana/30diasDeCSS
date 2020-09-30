@@ -1,0 +1,177 @@
+@mixin gridalign {
+  display: grid;
+  grid-template-columns: 40px auto;
+  // background: #000;
+  i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0077FF;
+    // max-width: 40px;
+
+    transition: 1s ease;
+  }
+  margin: 0px 0px 25px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+  font-size: 16pt;
+  font-family: 'Roboto';
+
+}
+
+header {
+  width: 95px;
+  height:100vh;
+  
+  background:#222;
+  color: white;
+
+  & input[type=text] {
+    width: 0;
+    visibility: hidden;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(51, 51, 51, 0.5);
+
+    color: white;
+
+    transition: .5s ease;
+  }
+
+  & span {
+    visibility: hidden;
+    transition: .3s ease;
+  }
+
+  & #nome {
+    display: none;
+    // visibility: hidden;
+    // transition: .3s ease;
+  }
+
+  & .profile__img {
+    visibility: visible;
+
+  }
+}
+
+header:hover {
+  width: 300px;
+  
+  & input[type=text] {
+    visibility: visible;
+    display: flex;
+    width: 200px;
+  }
+  & span {
+    // display: flex;
+    visibility: visible;
+  }
+
+  & #nome {
+    display: inline;
+    // visibility: visible;
+  }
+
+  &   .content__head {
+    margin: 95px 20px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: initial;
+    align-items: initial;
+  }
+}
+
+.content {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+
+  &__head {
+    margin: 95px 0;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    margin-left: 20px;
+    align-items: initial;
+  }
+}
+
+.container{
+  &__search {
+    @include gridalign();
+  }
+  &__people {
+    @include gridalign();
+  }
+}
+
+.saves {
+  &__favs {
+    @include gridalign();
+
+  }
+  &__work {
+    @include gridalign();
+    
+  }
+  &__up {
+    @include gridalign();
+  }
+}
+
+.adds {
+  &__plugins {
+    @include gridalign();
+  }
+  &__notif {
+    @include gridalign();
+  }
+}
+
+.profile {
+
+  font-size: 0.8vw;
+
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+
+  &__img {
+    background-image: url("https://images.unsplash.com/photo-1545682113-be24ae6223d7");
+    background-size: cover;
+
+    width: 50px;
+    height: 50px;
+
+    object-fit: cover;
+    border-radius: 50%;
+
+    position: relative;
+    
+    &::after {
+      content: '';
+      width: 8px;
+      height: 8px;
+
+      background: #09bb21;
+      position: absolute;
+      
+      border-radius: 50%;
+
+      top: 2px;
+      right: 5px;
+    }
+  }
+  & h1 {
+    margin: 0 15px;
+  }
+
+}
