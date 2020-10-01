@@ -268,6 +268,17 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**-webkit-text-stroke-color**](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke-color)
 * Uso de [**-webkit-text-stroke-width**](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke-width)
 
+### Challenge27:
+[![challenge27](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge27.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge27)
+
+**O que aprendi**
+
+* Uso de [**sgv**](https://developer.mozilla.org/pt-BR/docs/Web/SVG)
+* Uso do [**stroke-dasharray**](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-dasharray)
+* Uso do [**stroke-dashoffset**](https://developer.mozilla.org/pt-BR/docs/Web/SVG/Attribute/stroke-dashoffset)
+* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+
+
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
 
