@@ -22,10 +22,8 @@ body {
 
 @for $i from 1 through 10{
   #obama path:nth-child(#{$i}) {
-    // stroke-dasharray: 400;
-    // stroke-dashoffset: 100;
     animation: obama 3s ease forwards $i * 0.3s;
-    // background-color: lighten($base-color, $i * 5%);
+    
   }
 }
 

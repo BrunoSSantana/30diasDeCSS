@@ -278,6 +278,15 @@ Para participar também, [clique aqui][linkIssue]
 * Uso do [**stroke-dashoffset**](https://developer.mozilla.org/pt-BR/docs/Web/SVG/Attribute/stroke-dashoffset)
 * Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
 
+### Challenge28:
+[![challenge28g](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge28.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge28)
+
+**O que aprendi**
+
+* Uso de [**sgv**](https://developer.mozilla.org/pt-BR/docs/Web/SVG)
+* Uso do [**stroke-dasharray**](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-dasharray)
+* Uso do [**stroke-dashoffset**](https://developer.mozilla.org/pt-BR/docs/Web/SVG/Attribute/stroke-dashoffset)
+* Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
 
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
