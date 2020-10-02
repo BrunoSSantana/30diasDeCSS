@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #367DE8;
+}
+
+#obama {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: fill 0.5s ease-in forwards 6s;
+          animation: fill 0.5s ease-in forwards 6s;
+}
+
+#obama path:nth-child(1) {
+  -webkit-animation: obama 3s ease forwards 0.3s;
+          animation: obama 3s ease forwards 0.3s;
+}
+
+#obama path:nth-child(2) {
+  -webkit-animation: obama 3s ease forwards 0.6s;
+          animation: obama 3s ease forwards 0.6s;
+}
+
+#obama path:nth-child(3) {
+  -webkit-animation: obama 3s ease forwards 0.9s;
+          animation: obama 3s ease forwards 0.9s;
+}
+
+#obama path:nth-child(4) {
+  -webkit-animation: obama 3s ease forwards 1.2s;
+          animation: obama 3s ease forwards 1.2s;
+}
+
+#obama path:nth-child(5) {
+  -webkit-animation: obama 3s ease forwards 1.5s;
+          animation: obama 3s ease forwards 1.5s;
+}
+
+#obama path:nth-child(6) {
+  -webkit-animation: obama 3s ease forwards 1.8s;
+          animation: obama 3s ease forwards 1.8s;
+}
+
+#obama path:nth-child(7) {
+  -webkit-animation: obama 3s ease forwards 2.1s;
+          animation: obama 3s ease forwards 2.1s;
+}
+
+#obama path:nth-child(8) {
+  -webkit-animation: obama 3s ease forwards 2.4s;
+          animation: obama 3s ease forwards 2.4s;
+}
+
+#obama path:nth-child(9) {
+  -webkit-animation: obama 3s ease forwards 2.7s;
+          animation: obama 3s ease forwards 2.7s;
+}
+
+#obama path:nth-child(10) {
+  -webkit-animation: obama 3s ease forwards 3s;
+          animation: obama 3s ease forwards 3s;
+}
+
+#obama path:nth-child(1) {
+  stroke-dasharray: 436;
+  stroke-dashoffset: 436;
+}
+
+#obama path:nth-child(2) {
+  stroke-dasharray: 518;
+  stroke-dashoffset: 518;
+}
+
+#obama path:nth-child(3) {
+  stroke-dasharray: 538;
+  stroke-dashoffset: 538;
+}
+
+#obama path:nth-child(4) {
+  stroke-dasharray: 139;
+  stroke-dashoffset: 139;
+}
+
+#obama path:nth-child(5) {
+  stroke-dasharray: 874;
+  stroke-dashoffset: 874;
+}
+
+#obama path:nth-child(6) {
+  stroke-dasharray: 518;
+  stroke-dashoffset: 518;
+}
+
+#obama path:nth-child(7) {
+  stroke-dasharray: 539;
+  stroke-dashoffset: 539;
+}
+
+#obama path:nth-child(8) {
+  stroke-dasharray: 526;
+  stroke-dashoffset: 526;
+}
+
+#obama path:nth-child(9) {
+  stroke-dasharray: 639;
+  stroke-dashoffset: 639;
+}
+
+#obama path:nth-child(10) {
+  stroke-dasharray: 304;
+  stroke-dashoffset: 304;
+}
+
+@-webkit-keyframes obama {
+  to {
+    stroke-dasharray: 304 0;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes obama {
+  to {
+    stroke-dasharray: 304 0;
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+/*# sourceMappingURL=main.css.map */
