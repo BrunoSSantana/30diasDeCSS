@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(45deg, #02001F, #1F1B4E);
+}
+
+.fab {
+  // background: #000;
+  font-size: 4vw;
+
+  padding: 1vw;
+  margin: 0 1vw;
+
+  border: 0.5vw solid #00000050;
+  border-radius: 50% ;
+
+  cursor: pointer;
+}
