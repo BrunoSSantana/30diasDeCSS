@@ -14,18 +14,34 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: linear-gradient(45deg, #02001F, #1F1B4E);
+  background: linear-gradient(45deg, #0a0094, #5247cc);
 }
 
-.fab {
-  // background: #000;
-  font-size: 4vw;
 
-  padding: 1vw;
-  margin: 0 1vw;
 
-  border: 0.5vw solid #00000050;
-  border-radius: 50% ;
+.content .fab {
+  opacity: 0.1;
+  transition: all 0.5s ease;
 
-  cursor: pointer;
+  & {
+    // background: #000;
+    font-size: 4vw;
+  
+    padding: 1vw;
+    margin: 0 1vw;
+  
+    border: 0.5vw solid #00000050;
+    border-radius: 50% ;
+  
+    cursor: pointer;
+  
+    &:hover {
+      opacity: 1 !important;
+
+    }
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
 }

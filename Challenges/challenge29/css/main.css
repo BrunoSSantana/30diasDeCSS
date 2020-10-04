@@ -18,15 +18,29 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: linear-gradient(45deg, #02001F, #1F1B4E);
+  background: linear-gradient(45deg, #0a0094, #5247cc);
 }
 
-.fab {
+.content .fab {
+  opacity: 0.1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.content .fab {
   font-size: 4vw;
   padding: 1vw;
   margin: 0 1vw;
   border: 0.5vw solid #00000050;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.content .fab:hover {
+  opacity: 1 !important;
+}
+
+.content .fab:hover {
+  opacity: 0.5;
 }
 /*# sourceMappingURL=main.css.map */
