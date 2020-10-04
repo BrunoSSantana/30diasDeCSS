@@ -14,58 +14,55 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: linear-gradient(45deg, #f0f0f0, #c5c5c5);
+  background: #fff  ;
 }
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.circle {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  background: #ccc;
+  border: 18px solid #fff;
+  box-shadow: 0 0 0 12px #4973ff;
+  border-radius: 50%;
+  overflow: hidden;
+  .wave {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #4973ff;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .3);
+  }
+  &::before,
+  &::after {
+    content: '';
 
-  width: 35vw;
-  height: 20vh;
-  background: #fafafa;
+    position: absolute;
+    width: 200%;
+    height: 200%;
 
-  border-radius: 20px;
-  box-shadow: 0 0 30px #c5c5c5;
-
-  .content {
-
-    & .fab {
-      opacity: 0.1;
-      transition: all 0.5s ease;
-
-      & {
-        // background: #000;
-        font-size: 4vw;
-      
-        padding: 1vw;
-        margin: 0 1vw;
-      
-        border: 0.5vw solid #00000050;
-        border-radius: 50% ;
-      
-        cursor: pointer;
-      
-        &:hover {
-          opacity: 1 !important;
-          scale: 1.05;
-
-        }
-      }
-
-      &:hover {
-        opacity: 0.5;
-      }
-    }
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #000;
+  }
+  &::before {
+    border-radius: 45%;
+    background: rgba(255, 255, 255, 1);
+    animation: animate 10s linear infinite;
+  }
+  &::after {
+    border-radius: 40%;
+    background: linear-gradient(rgb(245, 134, 7), rgb(255, 190, 12));
+    animation: animate 5s infinite alternate  ;
   }
 }
 
-$colors: 1 #EA4C89, 2 #00ACEE, 3 #DD2A7B;
-
-@each $i in $colors {
-  .content .fab:nth-child(#{nth($i, 1)}):hover {
-    color: nth($i, 2);
-    border-color: nth($i, 2);
-    box-shadow: 0 0 30px #d3d3d3
+@keyframes animate {
+  from {
+    transform: translate(-50%, -100%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -55%) rotate(360deg);
   }
 }
