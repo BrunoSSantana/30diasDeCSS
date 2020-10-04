@@ -279,7 +279,7 @@ Para participar também, [clique aqui][linkIssue]
 * Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
 
 ### Challenge28:
-[![challenge28g](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge28.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge28)
+[![challenge28](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge28.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge28)
 
 **O que aprendi**
 
@@ -287,6 +287,17 @@ Para participar também, [clique aqui][linkIssue]
 * Uso do [**stroke-dasharray**](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-dasharray)
 * Uso do [**stroke-dashoffset**](https://developer.mozilla.org/pt-BR/docs/Web/SVG/Attribute/stroke-dashoffset)
 * Uso de [**animation**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+
+### Challenge29:
+[![challenge29](https://github.com/BrunoSSantana/30diasDeCSS/blob/master/screenshots/challenge29.gif)](https://github.com/BrunoSSantana/30diasDeCSS/tree/master/Challenges/challenge29)
+
+**O que aprendi**
+
+* Uso do [**@each**](https://desenvolvimentoparaweb.com/css/sass-dicas-parte-1/)
+* Uso de [**nth for sass**](https://sass-lang.com/documentation/syntax/structure#other-expressions)
+* Uso do [**:hover**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) (*pseudo-classe*)
+* Uso do seletor [**nth-child()**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)
+* Uso de [**transitions**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/)
 
 ## :speech_balloon: Contato
 Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
